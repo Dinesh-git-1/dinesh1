@@ -1,0 +1,17 @@
+sudo yum install git -y (to install git software)
+git init (to install git local repository)
+git status (to check the status)
+git add . to add working area to staging area
+git add *
+git add *. java (to add all java files from working area to staging)
+git add *. txt  (to add all the txt files from working area to staging area)
+git remote -v (it shows what are the urls is mapped )
+git config --global user.name "dinesh" (to configure the user name)
+git config --global user.mail "ensjeo@gmail.com" (to configure the mail id)
+git cinfig --global --list                (to check the configured mail and user name)
+git add aliazname URL
+git add dinesh URL                        (the aliaz name is used insted of password )
+git push dinesh master                    (the committed files will push to remote repsitory)
+git log                                   (will display all the commeted id)
+git log -2                                (will dispaly last 2 committed id with names)
+git show commitid                         (this will show all the files in the id )
